@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;464&family=Diplomata+SC&family=Lobster&family=Rubik+Moonrocks&family=Smooch&display=swap');
+body{
+    text-align: center;
+    margin: 0;
+    /*background-color: darkcyan;*/
+    background: linear-gradient(darkcyan, Orchid)
+}
+.menu{
+    position: fixed;
+    background-color: bisque;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    text-shadow: 2px 2px gray;
+    color: darkslategrey;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+#home{
+   /* background: linear-gradient(Orchid, blue, darkcyan);*/
+    color: white;
+    background: url(./Mohanlal1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.profile{
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name{
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+#book a{
+    color: crimson;
+    text-shadow: none;
+    text-decoration: underline;
+}
+#book a:hover{
+    color: blueviolet;
+}
+#contact{
+    background-color: forestgreen;
+}
+#contact iframe{
+    width: 100%;
+    margin-top: 10px;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+#black{
+    color: black;
+}
